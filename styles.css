@@ -1,0 +1,38 @@
+:root {
+    font-size: 18px;
+    --size-step-0: 1rem;
+    --size-step-1: 1.25rem;
+    --size-step-2: 1.56rem;
+    --size-step-3: 1.95rem;
+}
+
+html {
+    background-color: #eeeeee;
+    line-height: 1.3;
+    max-width: 65ch;
+    margin: auto;
+    padding: 2rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin: 2rem 0;
+}
+
+h1 {
+    font-size: var(--size-step-2);
+    width: inherit;
+    text-align: center;
+}
+
+h2 {
+    font-size: var(--size-step-1);
+}
+
+section {
+    font-size: var(--size-step-0);
+    text-align: justify;
+    margin-left: 25px;
+    text-indent: 25px;
+}
